@@ -1,0 +1,66 @@
+Rails:
+  Enabled: true
+
+Documentation:
+  Enabled: false
+
+Bundler/OrderedGems:
+  TreatCommentsAsGroupSeparators: true
+
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+
+Style/HashSyntax:
+  EnforcedStyle: hash_rockets
+
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: never
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/WordArray:
+  EnforcedStyle: brackets
+
+Style/SymbolArray:
+  EnforcedStyle: brackets
+
+Style/WordArray:
+  EnforcedStyle: brackets
+
+Style/NumericPredicate:
+  EnforcedStyle: comparison
+
+Style/Alias:
+  EnforcedStyle: prefer_alias_method
+
+Style/RegexpLiteral:
+  EnforcedStyle: slashes
+  AllowInnerSlashes: true
+
+Naming/MethodName:
+  EnforcedStyle: snake_case
+
+Layout/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: space
+
+Layout/EmptyLinesAroundBlockBody:
+  Enabled: false
+
+Layout/EmptyLinesAroundClassBody:
+  EnforcedStyle: empty_lines_except_namespace
+
+Layout/EmptyLinesAroundModuleBody:
+  EnforcedStyle: empty_lines_except_namespace
+
+Layout/SpaceInsideArrayLiteralBrackets:
+  EnforcedStyle: no_space
+
+Layout/TrailingBlankLines:
+  EnforcedStyle: final_newline
+
+Layout/IndentationWidth:
+  Width: 2
+
+Layout/EmptyLinesAroundMethodBody:
+  Enabled: false
