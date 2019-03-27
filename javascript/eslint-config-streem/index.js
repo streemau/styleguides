@@ -8,7 +8,7 @@ const config = {
     browser: true
   },
   extends: [
-    'airbnb',
+    'airbnb-base',
     'plugin:vue/recommended'
   ],
   // required to lint *.vue files

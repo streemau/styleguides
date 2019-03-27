@@ -1,6 +1,6 @@
 {
   "name": "@streemau/eslint-config-streem",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Eslint config for Streem JavaScript Projects",
   "main": "index.js",
   "scripts": {
@@ -14,12 +14,11 @@
   "dependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^5.12.1",
-    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.15.0",
     "eslint-plugin-jsx-a11y": "^6.2.0",
     "eslint-plugin-node": "^8.0.1",
     "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-vue": "^5.1.0"
   }
 }
