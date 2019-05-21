@@ -1,4 +1,4 @@
-# styleguides
+# Streem coding style guides
 
 ## Philosophy
 
