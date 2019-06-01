@@ -1,3 +1,9 @@
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
 Rails:
   Enabled: true
 
