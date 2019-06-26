@@ -67,3 +67,6 @@ Layout/IndentationWidth:
 
 Layout/EmptyLinesAroundMethodBody:
   Enabled: false
+  
+Lint/HandleExceptions:
+  AllowComments: true
