@@ -16,7 +16,10 @@ In order to limit cognitive overhead prefer:
 - Short classes and methods with single responsibility
 - Long descriptive variable & method names
 - Comments only to explain "why" when necessary (i.e. uncommon business rule, specific magic value...)
+- Many small independent PR > one big PR:
+![short_vs_long_code_reviews](https://raw.githubusercontent.com/streemau/styleguides/master/code_reviews.png)
 
 ## Usual backend apps structure
 
 MVC + `actions` + `jobs` + `services` + `workers`
+
