@@ -1,6 +1,6 @@
 {
   "name": "@streemau/eslint-config-streem",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Eslint config for Streem JavaScript Projects",
   "main": "index.js",
   "scripts": {
