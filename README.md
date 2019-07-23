@@ -8,7 +8,7 @@ Code is not about telling the computer what to do, it's about explaining to othe
 
 > Every line of code is a liability
 
-> No code is faster than no code
+> No code is faster to understand/run than no code
 
 ## General guidelines
 
