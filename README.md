@@ -19,14 +19,11 @@ In order to limit cognitive overhead prefer:
 - Many small independent PR > one big PR:
 ![short_vs_long_code_reviews](https://raw.githubusercontent.com/streemau/styleguides/master/code_reviews.png)
 
-## Usual backend apps structure
+## Common backend app structure
 
 MVC + `actions` + `jobs` + `services` + `workers`
 
-Actions receive & validate user input that create/update records, with any related business logic.
-
-Job have a single purpose with a clear start and end, usually asynchronous and ideally idempotent.
-
-Services encapsulate complex logic or external calls that can be used in multiple places, usually jobs and actions.
-
-Workers are long running processes listening for events, usually triggering relevant job in response.
+- Actions receive & validate user input that create/update records, with any related business logic.
+- Job have a single purpose with a clear start and end, usually asynchronous and ideally idempotent. 
+- Services encapsulate complex logic or external calls that can be used in multiple places, usually jobs and actions.
+- Workers are long running processes listening for events, usually triggering relevant job in response.
