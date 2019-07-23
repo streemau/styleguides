@@ -1,3 +1,5 @@
+const mergeDeep = require('./mergeDeep');
+
 const config = {
   root: true,
   parserOptions: {
@@ -48,7 +50,7 @@ const config = {
 };
 
 const mergeConfig = (cfg = {}) => {
-  return Object.assign({}, config, cfg);
+  return mergeDeep({}, config, cfg);
 };
 
 module.exports = mergeConfig;
