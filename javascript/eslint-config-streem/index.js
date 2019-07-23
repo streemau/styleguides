@@ -29,6 +29,11 @@ const config = {
 
     'class-methods-use-this': 'off',
 
+    // force PascalCase for components
+    "vue/component-name-in-template-casing": ["error", "PascalCase", {
+      "registeredComponentsOnly": false,
+    }],
+
     // allow paren-less arrow functions
     'arrow-parens': 0,
     'one-var': 0,
