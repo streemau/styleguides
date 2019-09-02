@@ -20,6 +20,13 @@ module.exports = require('@streemau/eslint-config-streem')(config)
 ## Front end structure, rules and guidelines
 To keep the code clean, consistent and well understood across all projects, we should follow the conventions, rules and guidelines below, in addition to the rules and conventions specified by the linting rules and generally those adopted by the language or framework/s.
 
+General conventions
+- directories should use camelCase multiword names
+- regular js modules should follow the same directory naming conventions for components, and should be named in camelCase
+- if the js module exports a class, the filename should be in PascalCase
+- avoid relative imports -- prefer absolute paths always. http://codeofrob.com/entries/stop-using-relative-paths-in-your-javascripts.html
+
+
 Component Naming Conventions:
 - always use multiword component names to avoid naming collisions or nondescriptive components
  - you should always know exactly what it is referring to based on the name
@@ -60,8 +67,3 @@ Routing Conventions
 - avoid route name nesting unless it is a requirement of the page to function, or it is also nested in the backend
 - for any page that isn't covered by the rules above, it should always be prefixed with the resource(s) they refer to and include the action they refer to
   - `articles/bulk-search`, `articles-bulk-search`
-
-General naming conventions
-- directories should use camelCase multiword names
-- regular js modules should follow the same directory naming conventions for components, and should be named in camelCase
-- if the js module exports a class, the filename should be in PascalCase
