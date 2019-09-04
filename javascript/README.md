@@ -44,7 +44,9 @@ Page Naming Conventions:
   - `OrganisationsTable`, `BriefGroupForm`
 - for pages that list content for a resource, suffix pages with `List`
   - `OrganisationsList`, `BriefGroupsList`
-- we should use the same page component when building create/edit pages, and the resource should be singular and suffixed with `View`
+- we should use the same page component when building create/edit pages, and the resource should be singular and suffixed with `Edit`
+  - `OrganisationEdit`, `BriefGroupEdit`
+- for pages that list a singular resource, suffix pages with `View`
   - `OrganisationView`, `BriefGroupView`
 - for routes that are nested, like the organisation tabs components, we should follow the tightly coupled naming rule for components based on the page component it is nested under
   - `OrganisationBriefsList`, `OrganisationBrandingProfilesList`
