@@ -33,6 +33,7 @@ MVC + `actions` + `jobs` + `services` + `workers`
 To keep the code clean, consistent and well understood across all projects, we should follow the conventions, rules and guidelines below, in addition to the rules and conventions specified by the linting rules and generally those adopted by the language or framework/s.
 
 General conventions
+As we use Vue for the frontend in our applications, it is a good idea to adhere and follow the official [Vue Style Guide](https://vuejs.org/v2/style-guide/).
 - directories should use camelCase multiword names
 - regular js modules should follow the same directory naming conventions for components, and should be named in camelCase
 - if the js module exports a class, the filename should be in PascalCase
