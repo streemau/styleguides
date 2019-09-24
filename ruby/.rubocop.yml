@@ -40,6 +40,9 @@ Style/Alias:
 Style/RegexpLiteral:
   EnforcedStyle: slashes
   AllowInnerSlashes: true
+  
+Style/NegatedIf:
+  Enabled: false
 
 Naming/MethodName:
   EnforcedStyle: snake_case
