@@ -62,7 +62,7 @@ Layout/EmptyLinesAroundModuleBody:
 Layout/SpaceInsideArrayLiteralBrackets:
   EnforcedStyle: no_space
 
-Layout/TrailingBlankLines:
+Layout/TrailingEmptyLines:
   EnforcedStyle: final_newline
 
 Layout/IndentationWidth:
@@ -71,5 +71,5 @@ Layout/IndentationWidth:
 Layout/EmptyLinesAroundMethodBody:
   Enabled: false
   
-Lint/HandleExceptions:
+Lint/SuppressedException:
   AllowComments: true
