@@ -26,7 +26,11 @@ As we use Vue for the frontend in our applications, it is a good idea to adhere 
 - regular js modules should follow the same directory naming conventions for components, and should be named in camelCase
 - if the js module exports a class, the filename should be in PascalCase
 - avoid relative imports -- prefer absolute paths always. http://codeofrob.com/entries/stop-using-relative-paths-in-your-javascripts.html
-
+- imports should always be ordered by:
+  - external e.g. 'vue'
+  - shared e.g. 'shared/components/MyComponent'
+  - src e.g. 'src/components/MyInput'
+  - then anything else
 
 Component Naming Conventions:
 - always use multiword component names to avoid naming collisions or nondescriptive components
