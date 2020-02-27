@@ -45,6 +45,11 @@ const config = {
       'registeredComponentsOnly': false,
     }],
 
+    // force ordering of SFC top level tags
+    "vue/component-tags-order": ["error", {
+      "order": ["template", "script", "style"]
+    }],
+
     // force import order of external > shared > src > local modules
     'import/order': ['error', {
       'alphabetize': { 'order': 'asc' },
