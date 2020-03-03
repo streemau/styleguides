@@ -15,9 +15,19 @@ Code is not about telling the computer what to do, it's about explaining to othe
 In order to limit cognitive overhead prefer:
 - Short classes and methods with single responsibility
 - Long descriptive variable & method names
-- Comments only to explain "why" when necessary (i.e. uncommon business rule, specific magic value...)
-- Many small independent PR > one big PR:
+- Comments to explain "why" something is done, not "how", when necessary (i.e. uncommon business rule, specific magic value...)
+- Several smaller PRs instead of one big PR:
 ![short_vs_long_code_reviews](https://raw.githubusercontent.com/streemau/styleguides/master/code_reviews.png)
+
+When reviewing your own code or someone else's, ask yourself:
+- Does this do what we want?
+- Is the code easy to understand and follow with meaningful names?
+- Is it the simplest solution to achieve the outcome?
+- Are there end-to-end tests for the happy paths and unit tests for all variations?
+- Are the tests testing the right things and only stubbing what is absolutely needed?
+- Is there any potential edge case or expected failure?
+- Is there any internal/external performance risk?
+- Is it working with or affecting all production environments (AU/UK)?
 
 ## Common backend app structure
 
