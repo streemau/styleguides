@@ -8,6 +8,9 @@ Metrics/ClassLength:
 Metrics/BlockLength:
   Enabled: false
 
+Layout/LineLength:
+  Max: 100
+
 Rails:
   Enabled: true
 
