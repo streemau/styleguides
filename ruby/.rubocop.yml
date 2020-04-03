@@ -28,6 +28,9 @@ Layout/LineLength:
 
 Rails:
   Enabled: true
+  
+Rails/ActiveRecordAliases:
+  Enabled: false
 
 Documentation:
   Enabled: false
