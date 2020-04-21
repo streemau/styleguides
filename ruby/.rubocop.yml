@@ -43,6 +43,15 @@ Style/ClassAndModuleChildren:
 
 Style/HashSyntax:
   EnforcedStyle: hash_rockets
+  
+Style/HashTransformKeys:
+  Enabled: true
+
+Style/HashTransformValues:
+  Enabled: true
+
+Style/HashEachMethods:
+  Enabled: true
 
 Style/FrozenStringLiteralComment:
   EnforcedStyle: never
