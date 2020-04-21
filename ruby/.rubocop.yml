@@ -32,7 +32,7 @@ Rails:
 Rails/ActiveRecordAliases:
   Enabled: false
 
-Documentation:
+Style/Documentation:
   Enabled: false
 
 Bundler/OrderedGems:
