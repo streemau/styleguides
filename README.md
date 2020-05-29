@@ -10,6 +10,8 @@ Code is not about telling the computer what to do, it's about explaining to othe
 
 > No code is faster to understand/run than no code
 
+> Make it work. Make it right. Make it fast. (in that order)
+
 ## General guidelines
 
 In order to limit cognitive overhead prefer:
