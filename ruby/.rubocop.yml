@@ -44,6 +44,9 @@ Bundler/OrderedGems:
 Style/ClassAndModuleChildren:
   EnforcedStyle: compact
 
+Style/CollectionMethods:
+  Enabled: true
+
 Style/HashSyntax:
   EnforcedStyle: hash_rockets
   
