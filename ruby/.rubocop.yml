@@ -116,3 +116,12 @@ Layout/EmptyLinesAroundMethodBody:
   
 Lint/SuppressedException:
   AllowComments: true
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented_relative_to_receiver
+
+Layout/FirstHashElementIndentation:
+  EnforcedStyle: consistent
+
+RSpec/DescribedClass:
+  EnforcedStyle: explicit
