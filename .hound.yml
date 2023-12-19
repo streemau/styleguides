@@ -1,3 +1,0 @@
-rubocop:
-  version: 0.80.0
-  config_file: ./ruby/.rubocop.yml
