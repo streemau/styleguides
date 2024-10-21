@@ -42,7 +42,7 @@ Bundler/OrderedGems:
   TreatCommentsAsGroupSeparators: true
 
 Style/ClassAndModuleChildren:
-  EnforcedStyle: false
+  Enabled: false
 
 Style/CollectionMethods:
   Enabled: true
