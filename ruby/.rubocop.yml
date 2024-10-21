@@ -4,9 +4,9 @@ require:
 
 AllCops:
   Exclude:
-    - 'bin/*'
-    - 'db/**/*'
-    - 'vendor/**/*'
+    - "bin/*"
+    - "db/**/*"
+    - "vendor/**/*"
 
 Metrics/ClassLength:
   Enabled: false
@@ -42,7 +42,7 @@ Bundler/OrderedGems:
   TreatCommentsAsGroupSeparators: true
 
 Style/ClassAndModuleChildren:
-  EnforcedStyle: compact
+  EnforcedStyle: false
 
 Style/CollectionMethods:
   Enabled: true
