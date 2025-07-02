@@ -1,6 +1,9 @@
 plugins:
   - rubocop-performance
   - rubocop-rails
+  - rubocop-rspec
+  - rubocop-capybara
+  - rubocop-factory_bot
 
 AllCops:
   Exclude:
@@ -29,11 +32,8 @@ Metrics/ParameterLists:
 Layout/LineLength:
   Max: 100
 
-Rails:
-  Enabled: true
-
-Rails/ActiveRecordAliases:
-  Enabled: false
+# Rails cops are now handled by rubocop-rails gem
+# Rails/ActiveRecordAliases has been moved to rubocop-rails
 
 Style/Documentation:
   Enabled: false
