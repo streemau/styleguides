@@ -74,3 +74,20 @@ Routing Conventions
 - avoid route name nesting unless it is a requirement of the page to function, or it is also nested in the backend
 - for any page that isn't covered by the rules above, it should always be prefixed with the resource(s) they refer to and include the action they refer to
   - `articles/bulk-search`, `articles-bulk-search`
+ 
+API URL construction
+- Avoid dynamically constructing resource names, as this cleverness makes it hard to see/search what API resources the FE is referencing. For example,
+  ```js
+  const url = `/${type}s/${id}`;
+  ```
+  (in this example, the author or reviewer might need to know all possible "type" values in their head. Instead, spell out possible URLs explicitly:
+  ```js
+  const getUrl = ({ id }) => {
+    switch (type) {
+      case "tweet":
+        return `/tweets/${id}`;
+      case "post":
+        return `/posts/${id}`;
+    }
+  }
+  ```
